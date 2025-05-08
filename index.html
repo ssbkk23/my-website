@@ -5,36 +5,113 @@
     <title>「アンパンマンたいそう」の歌詞に震えた話</title>
     <meta name="google-site-verification" content="JLjfnVchpsOPpaIhd9_IvcBhJnwTiPniO3LtTtiQhLs" />
     <style>
-        body { font-family: sans-serif; text-align: center; background-color: #f0f0f0; }
-        h1 { color: #333; }
-        p { color: #666; }
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #fffcf9;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        header {
+            background-color: #f8a5c2;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            font-size: 2rem;
+            border-bottom: 5px solid #ff7f50;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            color: #ff6347;
+            margin-top: 0;
+        }
+
+        p {
+            font-size: 1.2rem;
+            color: #333;
+            line-height: 1.8;
+            margin: 15px;
+            text-align: justify;
+        }
+
+        a {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #ff6347;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            margin: 20px 0;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: background-color 0.3s ease, transform 0.3s ease;
+        }
+
+        a:hover {
+            background-color: #ff4500;
+            transform: scale(1.1);
+        }
+
+        footer {
+            background-color: #ff7f50;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            font-size: 1rem;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+
+        /* 動きのあるアニメーション */
+        .highlight {
+            color: #ff6347;
+            font-size: 1.5rem;
+            font-weight: bold;
+            text-align: center;
+            animation: fadeIn 3s ease-out forwards;
+        }
+
+        @keyframes fadeIn {
+            0% { opacity: 0; transform: translateY(50px); }
+            100% { opacity: 1; transform: translateY(0); }
+        }
     </style>
-
-
-    <!-- Metaタグの追加: 表示安定性・セキュリティ強化 -->
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <!-- Content-Security-Policy設定（外部リソースからの攻撃を防ぐ） -->
-    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'">
-
 </head>
 <body>
+
+<header>
     <h1>「アンパンマンたいそう」の歌詞に震えた話</h1>
+</header>
+
+<div class="highlight">
     <p>くろさきです。</p>
-    <p>私は、昨日アンパンマンたいそうという歌の歌詞に感動させられました。(2025年5月7日)</p>
-    <p>以下の歌詞を読んでみてほしい。</p>
-    <p>もし自信をなくして</p>
-    <p>くじけそうになったら</p>
-    <p>いいことだけ いいことだけ 思い出せ</p>
-    <h1>良くないすか？！</h1>
-    <p>いま進路関係で悩んでたけど、励まされました。もう、気楽に考えすぎて逆効果になりつつあるし。</p>
-    <p>良かったら曲でも聴いてみてください</p>
-    <p>
-        <a href="https://www.youtube.com/watch?v=CaqHOvgAnO0" target="_blank" rel="noopener noreferrer">
-            アンパンマンたいそうをYouTubeで聴く
-        </a>
-    </p>
+</div>
+
+<p>私は、昨日アンパンマンたいそうという歌の歌詞に感動させられました。(2025年5月7日)</p>
+<p>以下の歌詞を読んでみてほしい。</p>
+
+<p><span class="highlight">もし自信をなくして</span></p>
+<p><span class="highlight">くじけそうになったら</span></p>
+<p><span class="highlight">いいことだけ いいことだけ 思い出せ</span></p>
+
+<h2>良くないすか？！</h2>
+
+<p>いま進路関係で悩んでたけど、励まされました。もう、気楽に考えすぎて逆効果になりつつあるし。</p>
+
+<p>良かったら曲でも聴いてみてください</p>
+
+<p>
+    <a href="https://www.youtube.com/watch?v=CaqHOvgAnO0" target="_blank" rel="noopener noreferrer">
+        アンパンマンたいそうをYouTubeで聴く
+    </a>
+</p>
+
+<footer>
+    <p>© 2025 黒﨑健太朗. All Rights Reserved.</p>
+</footer>
 
 </body>
 </html>
