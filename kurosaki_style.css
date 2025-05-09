@@ -79,3 +79,10 @@ footer {
         font-size: 1.2rem;
     }
 }
+
+.big-text {
+    font-size: 3rem; /* 大きな文字サイズ */
+    font-weight: bold; /* 太字 */
+    color: black; /* 黒色 */
+    margin-top: 20px; /* 上部に余白を追加 */
+}
