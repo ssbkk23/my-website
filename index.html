@@ -2,15 +2,16 @@
 <html lang="ja">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>「アンパンマンたいそう」の歌詞に震えた話</title>
-    <meta name="google-site-verification" content="JLjfnVchpsOPpaIhd9_IvcBhJnwTiPniO3LtTtiQhLs" />
     <style>
         body {
             font-family: 'Roboto', sans-serif;
-            background-color: #fffcf9;
+            background-color: #fffaf3;
             margin: 0;
             padding: 0;
             box-sizing: border-box;
+            line-height: 1.6;
         }
 
         header {
@@ -25,33 +26,33 @@
         h1 {
             font-size: 2.5rem;
             color: #ff6347;
-            margin-top: 0;
+            margin: 0;
         }
 
         p {
             font-size: 1.2rem;
             color: #333;
-            line-height: 1.8;
-            margin: 15px;
+            margin: 20px;
             text-align: justify;
         }
 
-        a {
-            display: inline-block;
-            padding: 10px 20px;
-            background-color: #ff6347;
-            color: white;
-            text-decoration: none;
-            border-radius: 5px;
+        .highlight {
+            color: #ff6347;
+            font-size: 1.5rem;
             font-weight: bold;
-            margin: 20px 0;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-            transition: background-color 0.3s ease, transform 0.3s ease;
+            text-align: center;
+            animation: fadeIn 3s ease-out forwards;
         }
 
-        a:hover {
-            background-color: #ff4500;
-            transform: scale(1.1);
+        @keyframes fadeIn {
+            0% { opacity: 0; transform: translateY(50px); }
+            100% { opacity: 1; transform: translateY(0); }
+        }
+
+        iframe {
+            max-width: 100%;
+            height: auto;
+            border: none;
         }
 
         footer {
@@ -65,18 +66,25 @@
             bottom: 0;
         }
 
-        /* 動きのあるアニメーション */
-        .highlight {
-            color: #ff6347;
-            font-size: 1.5rem;
-            font-weight: bold;
-            text-align: center;
-            animation: fadeIn 3s ease-out forwards;
-        }
+        /* レスポンシブ対応 */
+        @media (max-width: 768px) {
+            header {
+                font-size: 1.5rem;
+                padding: 15px;
+            }
 
-        @keyframes fadeIn {
-            0% { opacity: 0; transform: translateY(50px); }
-            100% { opacity: 1; transform: translateY(0); }
+            h1 {
+                font-size: 2rem;
+            }
+
+            p {
+                font-size: 1rem;
+                margin: 15px;
+            }
+
+            .highlight {
+                font-size: 1.2rem;
+            }
         }
     </style>
 </head>
@@ -104,10 +112,12 @@
 <p>良かったら曲でも聴いてみてください</p>
 
 <div style="text-align: center;">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/CaqHOvgAnO0?si=1CfRqwQBIS2zUYlN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/CaqHOvgAnO0?si=1CfRqwQBIS2zUYlN" title="YouTube video player" allowfullscreen></iframe>
 </div>
 
-
+<footer>
+    © 2025 くろさき
+</footer>
 
 </body>
 </html>
