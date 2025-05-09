@@ -81,8 +81,10 @@ footer {
 }
 
 .big-text {
-    font-size: 3rem; /* 大きな文字サイズ */
+    font-size: 315px; /* 動画の高さに合わせた文字サイズ */
     font-weight: bold; /* 太字 */
     color: black; /* 黒色 */
     margin-top: 20px; /* 上部に余白を追加 */
+    text-align: center; /* 中央揃え */
+    line-height: 1; /* 行間を詰める */
 }
