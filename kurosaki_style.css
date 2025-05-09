@@ -43,8 +43,8 @@ p {
 }
 
 iframe {
-    max-width: 100%;
-    height: auto;
+    width: 560px; /* 固定幅 */
+    height: 315px; /* 固定高さ */
     border: none;
 }
 
