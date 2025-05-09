@@ -81,9 +81,8 @@ footer {
 }
 
 .big-text {
-    font-size: 10vw; /* 画面幅の10%を基準にした文字サイズ */
+    font-size: 3rem; /* 大きな文字サイズ */
     font-weight: bold; /* 太字 */
     color: black; /* 黒色 */
     margin-top: 20px; /* 上部に余白を追加 */
-    text-align: center; /* 中央揃え */
 }
